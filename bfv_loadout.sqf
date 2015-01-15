@@ -1,4 +1,6 @@
 /*
+nul = [this] execVM "scripts\bfv_loadout.sqf";
+
 CHANGELOG
 
 06JAN15
