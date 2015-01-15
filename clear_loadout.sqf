@@ -1,4 +1,6 @@
 /*
+this addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 5"];
+
 CHANGELOG
 
 06JAN14
