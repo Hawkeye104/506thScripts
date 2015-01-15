@@ -1,4 +1,6 @@
 /*
+nul = [this] execVM "scripts\bfv_dmgred.sqf";
+
 CHANGELOG
 
 07JAN15
