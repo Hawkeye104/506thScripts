@@ -1,5 +1,6 @@
-// nul = [this] execVM "box_resupply.sqf"
 /*
+nul = [this] execVM "scripts\box_resupply.sqf"
+
 CHANGELOG
 
 06JAN15
