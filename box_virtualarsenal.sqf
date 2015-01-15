@@ -1,4 +1,6 @@
 /* 
+nul = [this] execVM "scripts\box_virtualarsenal.sqf";
+
 CHANGELOG
 
 05JAN15
