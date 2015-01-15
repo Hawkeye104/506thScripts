@@ -1,4 +1,6 @@
 /*
+nul = [this] execVM "scripts\box_equipment.sqf";
+
 CHANGELOG
 
 06JAN15
