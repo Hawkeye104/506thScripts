@@ -1,6 +1,4 @@
 /* 
-nul = [this] execVM "scripts\box_virtualarsenal.sqf";
-
 CHANGELOG
 
 05JAN15
@@ -16,7 +14,10 @@ CHANGELOG
 - Vanilla IR strobe 
 
 10JAN15
-- Added other AT4 variants and amo
+- Added other AT4 variants and ammo
+
+15FEB15
+- Added M14, 20 rnd 7.62, Leupold optic
 */
 
 _crate = _this select 0;
@@ -108,7 +109,8 @@ _availableItems = [
 	"AGM_Morphine",
 	"AGM_Epipen",
 	"AGM_Bandage",
-	"AGM_Bloodbag"
+	"AGM_Bloodbag",
+	"rhsusf_acc_LEUPOLDMK4"
 ];
  
 _availableMagazines = [
@@ -153,7 +155,8 @@ _availableMagazines = [
 	"Chemlight_red",
 	"Chemlight_blue",
 	"Chemlight_yellow",
-	"B_IR_Grenade"
+	"B_IR_Grenade",
+	"20Rnd_762x51_Mag"
 ];
  
 _availableWeapons = [
@@ -174,7 +177,8 @@ _availableWeapons = [
 	"rhs_weap_M136_hp",
 	"rhs_weap_fgm148",
 	"RH_m9",
-	"Binocular"
+	"Binocular",
+	"rhs_weap_m14ebrri"
 ];
  
 // Populate with predefined items and whatever is already in the crate
