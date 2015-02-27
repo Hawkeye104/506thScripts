@@ -18,6 +18,9 @@ CHANGELOG
 
 15FEB15
 - Added M14, 20 rnd 7.62, Leupold optic
+
+26FEB15
+- Removed 1Cav uniforms and vanilla NVG's
 */
 
 _crate = _this select 0;
@@ -46,7 +49,6 @@ _availableGoggles = [
 ];
  
 _availableUniforms = [
-	"rhs_uniform_cu_ocp",
 	"rhs_uniform_cu_ocp_patchless",
 	"U_B_PilotCoveralls",
 	"U_B_HeliPilotCoveralls"
@@ -80,9 +82,6 @@ _availableItems = [
 	"ToolKit",
 	"rhsusf_ANPVS_14",
 	"rhsusf_ANPVS_15",
-	"NVGoggles",
-	"NVGoggles_OPFOR",
-	"NVGoggles_INDEP",
 	"rhsusf_acc_anpeq15",
 	"rhsusf_acc_anpeq15_light",
 	"rhsusf_acc_anpeq15",
