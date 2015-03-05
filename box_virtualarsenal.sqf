@@ -93,7 +93,6 @@ _availableItems = [
 	"ItemMap",
 	"ItemAndroid",
 	"ItemMicroDAGR",
-	"ItemSMGR",
 	"ToolKit",
 	"ItemcTabHCam",
 	"ItemcTab",
