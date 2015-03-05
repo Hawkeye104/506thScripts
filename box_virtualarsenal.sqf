@@ -43,7 +43,8 @@ _availableHeadgear = [
 	"rhsusf_hgu56p_mask",
 	"H_CrewHelmetHeli_B",
 	"rhsusf_cvc_green_helmet",
-	"rhsusf_cvc_green_ess"
+	"rhsusf_cvc_green_ess",
+	"RHS_jetpilot_usaf"
 ];
  
 _availableGoggles = [
@@ -70,7 +71,8 @@ _availableVests = [
 	"rhsusf_iotv_ocp_Rifleman",
 	"rhsusf_iotv_ocp_SAW",
 	"rhsusf_iotv_ocp_Squadleader",
-	"rhsusf_iotv_ocp_Teamleader"
+	"rhsusf_iotv_ocp_Teamleader",
+	"V_TacVest_oli"
 ];
  
 _availableBackpacks = [
@@ -90,6 +92,8 @@ _availableItems = [
 	"ItemGPS",
 	"ItemMap",
 	"ItemAndroid",
+	"ItemMicroDAGR",
+	"ItemSMGR",
 	"ToolKit",
 	"ItemcTabHCam",
 	"ItemcTab",
@@ -215,3 +219,5 @@ _availableWeapons = [
 [_crate,((itemCargo _crate) + _availableHeadgear + _availableGoggles + _availableUniforms + _availableVests + _availableItems + _availableAccessories)] call BIS_fnc_addVirtualItemCargo;
 [_crate,((magazineCargo _crate) + _availableMagazines + _availableGrenades)] call BIS_fnc_addVirtualMagazineCargo;
 [_crate,((weaponCargo _crate) + _availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
+
+
