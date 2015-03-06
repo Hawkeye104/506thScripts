@@ -19,7 +19,7 @@ _crate addItemCargoGlobal ["AGM_Vector",50];
 _crate addItemCargoGlobal ["Laserdesignator",5];
 _crate addItemCargoGlobal ["Rangefinder", 50];
 _crate addItemCargoGlobal ["ItemRadio",100];
-_crate additemcargo ["ItemSMGR", 10];
+_crate addItemCargoGlobal ["ItemSMGR", 10];
 
 _crate addMagazineCargoGlobal["Laserbatteries", 10];
 
