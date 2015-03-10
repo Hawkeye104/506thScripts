@@ -1,10 +1,11 @@
 /*
-this addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 5"];
-
 CHANGELOG
 
 06JAN14
 - Changed to patchless uniform
+
+09MAR15
+- Changed to 101st uniform
 */
 
 _unit = _this select 1;
@@ -19,5 +20,5 @@ removebackpack _unit;
 removeheadgear _unit;
 removebackpack _unit;
 removegoggles _unit;
-_unit adduniform "rhs_uniform_cu_ocp_patchless";
+_unit adduniform "rhs_uniform_cu_ocp_101st";
 
