@@ -28,6 +28,9 @@ CHANGELOG
 03MAR15
 - New RHS equipment
 - Separated out hand grenades, weapon accessories
+
+09MAR15
+- Removed all M4s
 */
 
 _crate = _this select 0;
@@ -184,12 +187,6 @@ _availableGrenades = [
 ];
 
 _availableWeapons = [
-	"rhs_weap_m4",
-	"rhs_weap_m4_grip",
-	"rhs_weap_m4_grip2",
-	"rhs_weap_m4_carryhandle",
-	"rhs_weap_m4_carryhandle_pmag",
-	"rhs_m4_m320",
 	"rhs_weap_m4a1",
 	"rhs_weap_m4a1_grip",
 	"rhs_weap_m4a1_grip2",
