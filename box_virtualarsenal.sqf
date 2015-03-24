@@ -31,6 +31,9 @@ CHANGELOG
 
 09MAR15
 - Removed all M4s
+
+24MAR15
+- Removed patchless OCP uniform
 */
 
 _crate = _this select 0;
@@ -60,7 +63,6 @@ _availableGoggles = [
 ];
  
 _availableUniforms = [
-	"rhs_uniform_cu_ocp_patchless",
 	"rhs_uniform_cu_ocp_101st",
 	"U_B_PilotCoveralls",
 	"U_B_HeliPilotCoveralls"
