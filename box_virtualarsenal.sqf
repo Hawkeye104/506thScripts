@@ -34,6 +34,11 @@ CHANGELOG
 
 24MAR15
 - Removed patchless OCP uniform
+- Added parachute
+
+06APR15
+- Moved backpack radios from equipment box to VA
+- Added RHS ballistic goggles
 */
 
 _crate = _this select 0;
@@ -59,7 +64,9 @@ _availableGoggles = [
 	"G_Shades_Green",
 	"G_Shades_Red",
 	"G_Spectacles_Tinted",
-	"G_Lowprofile"
+	"G_Lowprofile",
+	"rhs_googles_clear",
+	"rhs_googles_black"
 ];
  
 _availableUniforms = [
@@ -86,7 +93,10 @@ _availableBackpacks = [
 	"B_Carryall_mcamo",
 	"B_Kitbag_mcamo",
 	"B_Kitbag_cbr",
-	"B_rhsusf_B_BACKPACK"
+	"B_rhsusf_B_BACKPACK",
+	"B_Parachute",
+	"tf_rt1523g_rhs",
+	"tf_rt1523g_big_rhs"
 ];
  
 _availableItems = [
