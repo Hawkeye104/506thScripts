@@ -11,7 +11,6 @@ CHANGELOG
 - Added if(isServer)
 - Moved backpack radios to VA
 */
-
 if (isServer) then {
 	_crate = _this select 0;
 	 
@@ -20,7 +19,7 @@ if (isServer) then {
 	clearWeaponCargoGlobal _crate;    
 	clearItemCargoGlobal _crate;
 	 
-	_crate addItemCargoGlobal ["AGM_Vector",50];
+	_crate addItemCargoGlobal ["ACE_Vector",50];
 	_crate addItemCargoGlobal ["Laserdesignator",5];
 	_crate addItemCargoGlobal ["Rangefinder", 50];
 	_crate addItemCargoGlobal ["ItemRadio",100];

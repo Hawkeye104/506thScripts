@@ -1,6 +1,5 @@
+// nul = [this] execVM "box_resupply.sqf"
 /*
-nul = [this] execVM "scripts\box_resupply.sqf"
-
 CHANGELOG
 
 06JAN15
@@ -9,7 +8,12 @@ CHANGELOG
 13JAN15
 - Javelin tube to Javelin missile
 - Added M136 HP x2
+
+07May2015
+removed AGM
+add ACE
 */
+
 
 _box = _this select 0;
 
@@ -37,7 +41,24 @@ _box addMagazineCargoGlobal ["SmokeShellGreen", 20];
 _box addMagazineCargoGlobal ["HandGrenade", 20];
 
 // Medical
-_box addItemCargoGlobal ["AGM_Bandage", 100];
-_box addItemCargoGlobal ["AGM_Morphine", 20];
-_box addItemCargoGlobal ["AGM_Epipen", 20];
-_box addItemCargoGlobal ["AGM_Bloodbag", 8];
+_box addItemCargoGlobal ["ACE_atropine", 100];
+_box addItemCargoGlobal ["ACE_Banana", 100];
+_box addItemCargoGlobal ["ACE_bloodIV", 100];
+_box addItemCargoGlobal ["ACE_bloodIV_250", 100];
+_box addItemCargoGlobal ["ACE_bloodIV_500", 100];
+_box addItemCargoGlobal ["ACE_bodybag", 100];
+_box addItemCargoGlobal ["ACE_elasticBandage", 100];
+_box addItemCargoGlobal ["ACE_epinephrine", 100];
+_box addItemCargoGlobal ["ACE_fieldDressing", 100];
+_box addItemCargoGlobal ["ACE_morphine", 100];
+_box addItemCargoGlobal ["ACE_packingBandage", 100];
+_box addItemCargoGlobal ["ACE_personalAidKit", 100];
+_box addItemCargoGlobal ["ACE_PlasmaIV", 100];
+_box addItemCargoGlobal ["ACE_PlasmaIV_250", 100];
+_box addItemCargoGlobal ["ACE_PlasmaIV_500", 100];
+_box addItemCargoGlobal ["ACE_quikclot", 100];
+_box addItemCargoGlobal ["ACE_salineIV", 100];
+_box addItemCargoGlobal ["ACE_salineIV_250", 100];
+_box addItemCargoGlobal ["ACE_salineIV_500", 100];
+_box addItemCargoGlobal ["ACE_surgicalKit", 100];
+_box addItemCargoGlobal ["ACE_tourniquet", 100];"
