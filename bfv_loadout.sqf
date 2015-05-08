@@ -1,10 +1,12 @@
 /*
-nul = [this] execVM "scripts\bfv_loadout.sqf";
-
 CHANGELOG
 
 06JAN15
 - Removed weapons, optics, morphine, epi, blood bags, and vectors
+
+07May2015
+removed AGM
+add ACE
 */
 
 _veh = _this select 0;
@@ -25,4 +27,4 @@ _veh addMagazineCargoGlobal ["SmokeShellGreen", 10];
 _veh addMagazineCargoGlobal ["HandGrenade", 10];
 _veh addMagazineCargoGlobal ["rhs_m136_mag", 1];
 
-_veh addItemCargoGlobal ["AGM_Bandage", 30];
+_veh addItemCargoGlobal ["ACE_Bandage", 30];

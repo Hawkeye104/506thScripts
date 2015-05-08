@@ -39,6 +39,10 @@ CHANGELOG
 06APR15
 - Moved backpack radios from equipment box to VA
 - Added RHS ballistic goggles
+
+07May2015
+removed AGM
+add ACE
 */
 
 _crate = _this select 0;
@@ -112,19 +116,37 @@ _availableItems = [
 	"ItemcTabHCam",
 	"ItemcTab",
 	"tf_microdagr",
-	"AGM_M26_Clacker",
-	"AGM_Clacker",
-	"AGM_DefusalKit",
-	"AGM_EarBuds",
-	"AGM_CableTie",
-	"AGM_MapTools",
-	"AGM_ItemKestrel",
-	"AGM_Altimeter",
-	"AGM_Morphine",
-	"AGM_Epipen",
-	"AGM_Bandage",
-	"AGM_Bloodbag"
-];
+	"ACE_M26_Clacker",
+	"ACE_Clacker",
+	"ACE_DefusalKit",
+	"ACE_EarBuds",
+	"ACE_CableTie",
+	"ACE_MapTools",
+	"ACE_Kestrel14500",
+	"ACE_Altimeter",
+	"ACE_atropine",
+	"ACE_Epipen",
+	"ACE_Banana",
+	"ACE_bloodIV"
+	"ACE_bloodIV_250"
+	"ACE_bloodIV_500"
+	"ACE_bodybag"
+	"ACE_elasticBandage"
+	"ACE_epinephrine"
+	"ACE_fieldDressing"
+	"ACE_morphine"
+	"ACE_packingBandage"
+	"ACE_personalAidKit"
+	"ACE_PlasmaIV"
+    "ACE_PlasmaIV_250"
+    "ACE_PlasmaIV_500"
+	"ACE_quikclot"
+	"ACE_salineIV"
+	"ACE_salineIV_250"
+	"ACE_salineIV_500"
+	"ACE_surgicalKit"
+	"ACE_tourniquet"
+	];
 
 _availableAccessories = [
 	"rhsusf_acc_anpeq15",
@@ -185,11 +207,6 @@ _availableGrenades = [
 	"SmokeShellPurple",
 	"SmokeShellBlue",
 	"SmokeShellOrange",
-	"AGM_HandFlare_Green",
-	"AGM_HandFlare_Red",
-	"AGM_HandFlare_White",
-	"AGM_HandFlare_Yellow",
-	"AGM_M84",
 	"HandGrenade",
 	"Chemlight_green",
 	"Chemlight_red",
