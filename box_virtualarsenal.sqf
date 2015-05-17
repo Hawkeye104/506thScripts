@@ -1,5 +1,40 @@
 /* 
 CHANGELOG
+16MAY15
+-Added rhsusf_ANPVS_14_full
+-Added rhsusf_ANPVS_15_full
+-Added rhsusf_ANPVS_14_oval
+
+08MAY15
+- Added rhs_googles_orange
+- Added rhs_googles_yellow
+- Added rhsusf_assault_eagleaiii_coyM
+- Added ACE_M26_Clacker
+- Added ACE_Clacker
+- Added ACE_DefusalKit
+- Added ACE_wirecutter
+- Added ACE_EarPlugs
+- Added ACE_CableTie
+- Added ACE_MapTools
+- Added ACE_Kestrel4500
+- Added ACE_Altimeter
+- Added ACE_fieldDressing
+- Added ACE_Morphine
+- Added ACE_epinephrine
+- Added ACE_bloodIV_250
+- Added ACE_bodyBag
+- Added bipod_01_F_blk
+- Added B_IR_Grenade
+- Added rhsusf_acc_harris_bipod
+- Added ACE_HandFlare_Green
+- Added ACE_HandFlare_Red
+- Added ACE_HandFlare_White
+- Added ACE_HandFlare_Yellow
+- Added ACE_M84
+- Removed meu_MX2A_tan (added it to box_equipment.sqf)
+
+07MAY15
+- Removed AGM Items
 
 05JAN15
 - Added chemlights to _availableMagazines
@@ -66,6 +101,8 @@ _availableGoggles = [
 	"G_Spectacles_Tinted",
 	"G_Lowprofile",
 	"rhs_googles_clear",
+	"rhs_googles_orange",
+	"rhs_googles_yellow",
 	"rhs_googles_black"
 ];
  
@@ -96,12 +133,17 @@ _availableBackpacks = [
 	"B_rhsusf_B_BACKPACK",
 	"B_Parachute",
 	"tf_rt1523g_rhs",
-	"tf_rt1523g_big_rhs"
+	"tf_rt1523g_big_rhs",
+	"rhsusf_assault_eagleaiii_coyM",
+	"B_AssaultPack_cbr"
 ];
  
 _availableItems = [
 	"rhsusf_ANPVS_14",
 	"rhsusf_ANPVS_15",
+	"rhsusf_ANPVS_14_full",
+	"rhsusf_ANPVS_15_full",
+	"rhsusf_ANPVS_14_oval",
 	"ItemWatch",
 	"ItemCompass",
 	"ItemGPS",
@@ -112,18 +154,20 @@ _availableItems = [
 	"ItemcTabHCam",
 	"ItemcTab",
 	"tf_microdagr",
-	"AGM_M26_Clacker",
-	"AGM_Clacker",
-	"AGM_DefusalKit",
-	"AGM_EarBuds",
-	"AGM_CableTie",
-	"AGM_MapTools",
-	"AGM_ItemKestrel",
-	"AGM_Altimeter",
-	"AGM_Morphine",
-	"AGM_Epipen",
-	"AGM_Bandage",
-	"AGM_Bloodbag"
+	"ACE_M26_Clacker",
+	"ACE_Clacker",
+	"ACE_DefusalKit",
+	"ACE_wirecutter",
+	"ACE_EarPlugs",
+	"ACE_CableTie",
+	"ACE_MapTools",
+	"ACE_Kestrel4500",
+	"ACE_Altimeter",	
+	"ACE_fieldDressing",
+	"ACE_Morphine",
+	"ACE_epinephrine",
+	"ACE_bloodIV_250",
+	"ACE_bodyBag"
 ];
 
 _availableAccessories = [
@@ -144,6 +188,8 @@ _availableAccessories = [
 	"optic_tws",
 	"optic_tws_mg",
 	"FHQ_optic_TWS3050",
+	"bipod_01_F_blk",
+	"rhsusf_acc_harris_bipod",
 	"rhsusf_acc_SF3P556"
 ];
  
@@ -185,11 +231,11 @@ _availableGrenades = [
 	"SmokeShellPurple",
 	"SmokeShellBlue",
 	"SmokeShellOrange",
-	"AGM_HandFlare_Green",
-	"AGM_HandFlare_Red",
-	"AGM_HandFlare_White",
-	"AGM_HandFlare_Yellow",
-	"AGM_M84",
+	"ACE_HandFlare_Green",
+	"ACE_HandFlare_Red",
+	"ACE_HandFlare_White",
+	"ACE_HandFlare_Yellow",
+	"ACE_M84",
 	"HandGrenade",
 	"Chemlight_green",
 	"Chemlight_red",
@@ -218,7 +264,6 @@ _availableWeapons = [
 	"rhs_weap_M136_hp",
 	"rhs_weap_fgm148",
 	"RH_m9",
-	"meu_MX2A_tan",
 	"Binocular"
 ];
  
@@ -227,5 +272,3 @@ _availableWeapons = [
 [_crate,((itemCargo _crate) + _availableHeadgear + _availableGoggles + _availableUniforms + _availableVests + _availableItems + _availableAccessories)] call BIS_fnc_addVirtualItemCargo;
 [_crate,((magazineCargo _crate) + _availableMagazines + _availableGrenades)] call BIS_fnc_addVirtualMagazineCargo;
 [_crate,((weaponCargo _crate) + _availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
-
-
