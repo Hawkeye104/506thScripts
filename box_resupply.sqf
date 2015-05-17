@@ -1,7 +1,14 @@
+// nul = [this] execVM "box_resupply.sqf"
 /*
-nul = [this] execVM "scripts\box_resupply.sqf"
-
 CHANGELOG
+08MAY15
+- Added ACE_fieldDressing
+- Added ACE_epinephrine
+- Added ACE_bloodIV_250
+- Added ACE_bodyBag
+
+07MAY15
+- Removed AGM Medical supplies
 
 06JAN15
 - Initial creation
@@ -37,7 +44,8 @@ _box addMagazineCargoGlobal ["SmokeShellGreen", 20];
 _box addMagazineCargoGlobal ["HandGrenade", 20];
 
 // Medical
-_box addItemCargoGlobal ["AGM_Bandage", 100];
-_box addItemCargoGlobal ["AGM_Morphine", 20];
-_box addItemCargoGlobal ["AGM_Epipen", 20];
-_box addItemCargoGlobal ["AGM_Bloodbag", 8];
+_box addItemCargoGlobal ["ACE_fieldDressing", 100];
+_box addItemCargoGlobal ["ACE_Morphine", 20];
+_box addItemCargoGlobal ["ACE_epinephrine", 20];
+_box addItemCargoGlobal ["ACE_bloodIV_250", 5];
+_box addItemCargoGlobal ["ACE_bodyBag", 5];
