@@ -1,5 +1,11 @@
 /* 
 CHANGELOG
+07JUN15
+- Removed "B_rhsusf_B_BACKPACK"
+- Added "B_UAV_01_backpack_F"
+- Added "B_UavTerminal"
+- Added "ACE_UAVBattery"
+
 16MAY15
 -Added rhsusf_ANPVS_14_full
 -Added rhsusf_ANPVS_15_full
@@ -130,7 +136,7 @@ _availableBackpacks = [
 	"B_Carryall_mcamo",
 	"B_Kitbag_mcamo",
 	"B_Kitbag_cbr",
-	"B_rhsusf_B_BACKPACK",
+	"B_UAV_01_backpack_F",
 	"B_Parachute",
 	"tf_rt1523g_rhs",
 	"tf_rt1523g_big_rhs",
@@ -154,6 +160,7 @@ _availableItems = [
 	"ItemcTabHCam",
 	"ItemcTab",
 	"tf_microdagr",
+	"B_UavTerminal",
 	"ACE_M26_Clacker",
 	"ACE_Clacker",
 	"ACE_DefusalKit",
@@ -167,6 +174,7 @@ _availableItems = [
 	"ACE_Morphine",
 	"ACE_epinephrine",
 	"ACE_bloodIV_250",
+	"ACE_UAVBattery",
 	"ACE_bodyBag"
 ];
 
