@@ -1,5 +1,11 @@
 /* 
 CHANGELOG
+24JUN15
+- Removed "rhsusf_acc_harris_bipod"
+- Removed "bipod_01_F_blk"
+- Removed "ItemMicroDAGR"
+- Removed "tf_microdagr"
+
 07JUN15
 - Removed "B_rhsusf_B_BACKPACK"
 - Added "B_UAV_01_backpack_F"
@@ -155,11 +161,9 @@ _availableItems = [
 	"ItemGPS",
 	"ItemMap",
 	"ItemAndroid",
-	"ItemMicroDAGR",
 	"ToolKit",
 	"ItemcTabHCam",
 	"ItemcTab",
-	"tf_microdagr",
 	"B_UavTerminal",
 	"ACE_M26_Clacker",
 	"ACE_Clacker",
@@ -196,8 +200,6 @@ _availableAccessories = [
 	"optic_tws",
 	"optic_tws_mg",
 	"FHQ_optic_TWS3050",
-	"bipod_01_F_blk",
-	"rhsusf_acc_harris_bipod",
 	"rhsusf_acc_SF3P556"
 ];
  
@@ -280,3 +282,5 @@ _availableWeapons = [
 [_crate,((itemCargo _crate) + _availableHeadgear + _availableGoggles + _availableUniforms + _availableVests + _availableItems + _availableAccessories)] call BIS_fnc_addVirtualItemCargo;
 [_crate,((magazineCargo _crate) + _availableMagazines + _availableGrenades)] call BIS_fnc_addVirtualMagazineCargo;
 [_crate,((weaponCargo _crate) + _availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
+
+
