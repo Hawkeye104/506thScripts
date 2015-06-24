@@ -1,5 +1,7 @@
 /*
 CHANGELOG
+24JUN15
+- Added "rhsusf_acc_harris_bipod"
 07MAy15
 - Replaced "AGM_Vector" with "ACE_Vector"
 - Added lerca_1200_black
@@ -25,6 +27,7 @@ if (isServer) then {
 	clearItemCargoGlobal _crate;
 	 
 	_crate addItemCargoGlobal ["ACE_Vector",50];
+	_crate addItemCargoGlobal ["rhsusf_acc_harris_bipod",1];
 	_crate addItemCargoGlobal ["lerca_1200_black",50];
 	_crate addItemCargoGlobal ["lerca_1200_tan",50];
 	_crate addItemCargoGlobal ["Laserdesignator",5];
