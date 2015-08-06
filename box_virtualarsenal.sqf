@@ -1,5 +1,12 @@
 /* 
 CHANGELOG
+06AUG15
+- Added "ACE_TacticalLadder_Pack"
+- Added "ACE_HuntIR_monitor"
+- Added "ACE_HuntIR_M203"
+
+15JUL15
+- Added "rhsusf_100Rnd_762x51_m993"
 24JUN15
 - Removed "rhsusf_acc_harris_bipod"
 - Removed "bipod_01_F_blk"
@@ -138,6 +145,7 @@ _availableVests = [
  
 _availableBackpacks = [
 	"rhsusf_assault_eagleaiii_ocp",
+	"ACE_TacticalLadder_Pack",
 	"B_Carryall_cbr",
 	"B_Carryall_mcamo",
 	"B_Kitbag_mcamo",
@@ -165,6 +173,7 @@ _availableItems = [
 	"ItemcTabHCam",
 	"ItemcTab",
 	"B_UavTerminal",
+	"ACE_HuntIR_monitor",
 	"ACE_M26_Clacker",
 	"ACE_Clacker",
 	"ACE_DefusalKit",
@@ -205,6 +214,8 @@ _availableAccessories = [
  
 _availableMagazines = [
 	"30Rnd_556x45_Stanag",
+	"ACE_HuntIR_M203",
+	"rhsusf_100Rnd_762x51_m993",
 	"rhs_mag_30Rnd_556x45_Mk318_Stanag",
 	"30Rnd_556x45_Stanag_Tracer_Red",
 	"rhsusf_20Rnd_762x51_m118_special_Mag",
