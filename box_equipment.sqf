@@ -1,5 +1,9 @@
 /*
 CHANGELOG
+06AUG15
+- Added "ACE_MX2A"
+15JUL15
+- Added "rhsusf_opscore_04_ocp"
 24JUN15
 - Added "rhsusf_acc_harris_bipod"
 07MAy15
@@ -27,7 +31,9 @@ if (isServer) then {
 	clearItemCargoGlobal _crate;
 	 
 	_crate addItemCargoGlobal ["ACE_Vector",50];
+	_crate addItemCargoGlobal ["ACE_MX2A",50];
 	_crate addItemCargoGlobal ["rhsusf_acc_harris_bipod",1];
+	_crate addItemCargoGlobal ["rhsusf_opscore_04_ocp",1];
 	_crate addItemCargoGlobal ["lerca_1200_black",50];
 	_crate addItemCargoGlobal ["lerca_1200_tan",50];
 	_crate addItemCargoGlobal ["Laserdesignator",5];
