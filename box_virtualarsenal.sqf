@@ -1,5 +1,11 @@
 /* 
 CHANGELOG
+15AUG15
+- Added "ACE_TacticalLadder_Item"
+- Added "TIAD_506th_UAV_Item"
+- Added "O_Mortar_01_support_F"
+- Added "O_Mortar_01_weapon_F"
+
 06AUG15
 - Added "ACE_TacticalLadder_Pack"
 - Added "ACE_HuntIR_monitor"
@@ -146,6 +152,8 @@ _availableVests = [
 _availableBackpacks = [
 	"rhsusf_assault_eagleaiii_ocp",
 	"ACE_TacticalLadder_Pack",
+	"O_Mortar_01_weapon_F",
+	"O_Mortar_01_support_F",
 	"B_Carryall_cbr",
 	"B_Carryall_mcamo",
 	"B_Kitbag_mcamo",
@@ -188,6 +196,8 @@ _availableItems = [
 	"ACE_epinephrine",
 	"ACE_bloodIV_250",
 	"ACE_UAVBattery",
+	"ACE_TacticalLadder_Item",
+	"TIAD_506th_UAV_Item",
 	"ACE_bodyBag"
 ];
 
@@ -293,5 +303,3 @@ _availableWeapons = [
 [_crate,((itemCargo _crate) + _availableHeadgear + _availableGoggles + _availableUniforms + _availableVests + _availableItems + _availableAccessories)] call BIS_fnc_addVirtualItemCargo;
 [_crate,((magazineCargo _crate) + _availableMagazines + _availableGrenades)] call BIS_fnc_addVirtualMagazineCargo;
 [_crate,((weaponCargo _crate) + _availableWeapons)] call BIS_fnc_addVirtualWeaponCargo;
-
-
