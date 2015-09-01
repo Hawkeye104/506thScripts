@@ -1,5 +1,13 @@
 /* 
 CHANGELOG
+01SEP15
+- Added rhs_mag_mk84
+- Replaced "O_Mortar_01_support_F" with "B_Mortar_01_support_F"
+- Replaced "O_Mortar_01_weapon_F" with "B_Mortar_01_weapon_F"
+- Prepped Removal "ACE_M84"
+- Removed "ACE_TacticalLadder_Pack"
+- Removed "B_UAV_01_backpack_F"
+
 15AUG15
 - Added "ACE_TacticalLadder_Item"
 - Added "TIAD_506th_UAV_Item"
@@ -151,14 +159,12 @@ _availableVests = [
  
 _availableBackpacks = [
 	"rhsusf_assault_eagleaiii_ocp",
-	"ACE_TacticalLadder_Pack",
-	"O_Mortar_01_weapon_F",
-	"O_Mortar_01_support_F",
+	"B_Mortar_01_support_F",
+	"B_Mortar_01_weapon_F",
 	"B_Carryall_cbr",
 	"B_Carryall_mcamo",
 	"B_Kitbag_mcamo",
 	"B_Kitbag_cbr",
-	"B_UAV_01_backpack_F",
 	"B_Parachute",
 	"tf_rt1523g_rhs",
 	"tf_rt1523g_big_rhs",
@@ -266,7 +272,8 @@ _availableGrenades = [
 	"ACE_HandFlare_Red",
 	"ACE_HandFlare_White",
 	"ACE_HandFlare_Yellow",
-	"ACE_M84",
+	"ACE_M84", // Remove next update
+	"rhs_mag_mk84",
 	"HandGrenade",
 	"Chemlight_green",
 	"Chemlight_red",
