@@ -1,5 +1,8 @@
 /*
 CHANGELOG
+01SEP15
+- Removed "Rangefinder"
+- Removed "meu_MX2A_tan"
 06AUG15
 - Added "ACE_MX2A"
 15JUL15
@@ -37,9 +40,7 @@ if (isServer) then {
 	_crate addItemCargoGlobal ["lerca_1200_black",50];
 	_crate addItemCargoGlobal ["lerca_1200_tan",50];
 	_crate addItemCargoGlobal ["Laserdesignator",5];
-	_crate addItemCargoGlobal ["Rangefinder", 50];
 	_crate addItemCargoGlobal ["ItemRadio",100];
 	_crate addItemCargoGlobal ["ItemSMGR", 10];
-	_crate addItemCargoGlobal ["meu_MX2A_tan",50];
 	_crate addMagazineCargoGlobal["Laserbatteries", 10];
 };
