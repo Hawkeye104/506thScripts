@@ -1,5 +1,23 @@
 /* 
 CHANGELOG
+26SEP15
+- Added "ACE_Tripod"
+- Added "ItemMicroDAGR"
+- Added "tf47_m3maaws"
+- Added "tf47_m3maaws_HEAT"
+- Added "rhsusf_8Rnd_Slug"
+- Added "rhsusf_5Rnd_Slug"
+- Added "rhs_weap_m249_pip_S_para"
+- Added "rhs_weap_m249_pip_S_vfg"
+- Added "rhs_weap_m249_pip_L"
+- Added "rhs_weap_m249_pip_L_para"
+- Added "rhs_weap_m249_pip_L_vfg"
+- Replaced "rhs_weap_m240B" with "rhs_weap_m240B_CAP"
+- Replaced "rhsusf_assault_eagleaiii_coyM" with "506th_assault_eagleaiii_coy_Medic"
+
+23SEP15
+- Removed "ACE_M84"
+
 01SEP15
 - Added rhs_mag_mk84
 - Replaced "O_Mortar_01_support_F" with "B_Mortar_01_support_F"
@@ -168,7 +186,7 @@ _availableBackpacks = [
 	"B_Parachute",
 	"tf_rt1523g_rhs",
 	"tf_rt1523g_big_rhs",
-	"rhsusf_assault_eagleaiii_coyM",
+	"506th_assault_eagleaiii_coy_Medic",
 	"B_AssaultPack_cbr"
 ];
  
@@ -182,10 +200,11 @@ _availableItems = [
 	"ItemCompass",
 	"ItemGPS",
 	"ItemMap",
-	"ItemAndroid",
 	"ToolKit",
-	"ItemcTabHCam",
-	"ItemcTab",
+	"ItemcTabHCam", // ctab, helmet cam
+	"ItemAndroid", // ctab, android bft
+	"ItemcTab", // ctab, commander tablet
+	"ItemMicroDAGR", // ctab, microdagr gps
 	"B_UavTerminal",
 	"ACE_HuntIR_monitor",
 	"ACE_M26_Clacker",
@@ -203,8 +222,9 @@ _availableItems = [
 	"ACE_bloodIV_250",
 	"ACE_UAVBattery",
 	"ACE_TacticalLadder_Item",
-	"TIAD_506th_UAV_Item",
-	"ACE_bodyBag"
+	"ACE_bodyBag",
+	"ACE_Tripod",
+	"TIAD_506th_UAV_Item"
 ];
 
 _availableAccessories = [
@@ -230,15 +250,17 @@ _availableAccessories = [
  
 _availableMagazines = [
 	"30Rnd_556x45_Stanag",
-	"ACE_HuntIR_M203",
-	"rhsusf_100Rnd_762x51_m993",
-	"rhs_mag_30Rnd_556x45_Mk318_Stanag",
 	"30Rnd_556x45_Stanag_Tracer_Red",
+	"rhs_mag_30Rnd_556x45_Mk318_Stanag",
+	"ACE_HuntIR_M203",
 	"rhsusf_20Rnd_762x51_m118_special_Mag",
-	"rhsusf_5Rnd_00Buck",
 	"rhsusf_8Rnd_00Buck",
+	"rhsusf_8Rnd_Slug",
+	"rhsusf_5Rnd_00Buck",
+	"rhsusf_5Rnd_Slug",
 	"rhsusf_100Rnd_556x45_soft_pouch",
 	"rhsusf_100Rnd_762x51",
+	"rhsusf_100Rnd_762x51_m993",
 	"RH_15Rnd_9x19_M9",
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
@@ -254,6 +276,7 @@ _availableMagazines = [
 	"rhs_m136_mag",
 	"rhs_m136_hp_mag",
 	"rhs_m136_hedp_mag",
+	"tf47_m3maaws_HEAT",
 	"rhs_fgm148_magazine_AT"
 ];
 
@@ -272,7 +295,6 @@ _availableGrenades = [
 	"ACE_HandFlare_Red",
 	"ACE_HandFlare_White",
 	"ACE_HandFlare_Yellow",
-	"ACE_M84", // Remove next update
 	"rhs_mag_mk84",
 	"HandGrenade",
 	"Chemlight_green",
@@ -293,14 +315,20 @@ _availableWeapons = [
 	"rhs_weap_m4a1_carryhandle_pmag",
 	"rhs_weap_M320",
 	"rhs_weap_m14ebrri",
-	"rhs_weap_m249_pip",
-	"rhs_weap_m240B",
+	"rhs_weap_m249_pip_S",
+	"rhs_weap_m249_pip_S_para",
+	"rhs_weap_m249_pip_S_vfg",
+	"rhs_weap_m249_pip_L",
+	"rhs_weap_m249_pip_L_para",
+	"rhs_weap_m249_pip_L_vfg",
+	"rhs_weap_m240B_CAP",
 	"rhs_weap_M590_8RD",
 	"rhs_weap_M590_5RD",
 	"rhs_weap_M136",
 	"rhs_weap_M136_hedp",
 	"rhs_weap_M136_hp",
 	"rhs_weap_fgm148",
+	"tf47_m3maaws",
 	"RH_m9",
 	"Binocular"
 ];
