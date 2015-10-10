@@ -1,6 +1,8 @@
 // nul = [this] execVM "box_resupply.sqf"
 /*
 CHANGELOG
+09OCT15
+- Added tf47_m3maaws_HEAT
 08MAY15
 - Added ACE_fieldDressing
 - Added ACE_epinephrine
@@ -29,6 +31,7 @@ clearBackpackCargoGlobal _box;
 _box addWeaponCargoGlobal ["rhs_weap_M136_hp", 2];
 _box addMagazineCargoGlobal ["rhs_m136_hp_mag", 2];
 _box addMagazineCargoGlobal ["rhs_fgm148_magazine_AT", 2];
+_box addMagazineCargoGlobal ["tf47_m3maaws_HEAT", 3];
 
 // Ammo
 _box addMagazineCargoGlobal ["rhs_mag_30Rnd_556x45_Mk318_Stanag", 100];
