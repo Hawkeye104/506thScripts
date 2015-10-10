@@ -1,10 +1,18 @@
 /* 
 CHANGELOG
+09OCT15
+- Added "ACE_Flashlight_MX991"
+- Added "MineDetector"
+- Added "ATMine_Range_Mag"
+- Added "SLAMDirectionalMine_Wire_Mag"
+- Added "APERSBoundingMine_Range_Mag"
+
 26SEP15
 - Added "ACE_Tripod"
 - Added "ItemMicroDAGR"
 - Added "tf47_m3maaws"
 - Added "tf47_m3maaws_HEAT"
+- Added "tf47_optic_m3maaws"
 - Added "rhsusf_8Rnd_Slug"
 - Added "rhsusf_5Rnd_Slug"
 - Added "rhs_weap_m249_pip_S_para"
@@ -201,6 +209,7 @@ _availableItems = [
 	"ItemGPS",
 	"ItemMap",
 	"ToolKit",
+	"MineDetector",
 	"ItemcTabHCam", // ctab, helmet cam
 	"ItemAndroid", // ctab, android bft
 	"ItemcTab", // ctab, commander tablet
@@ -224,6 +233,7 @@ _availableItems = [
 	"ACE_TacticalLadder_Item",
 	"ACE_bodyBag",
 	"ACE_Tripod",
+	"ACE_Flashlight_MX991",
 	"TIAD_506th_UAV_Item"
 ];
 
@@ -237,6 +247,7 @@ _availableAccessories = [
 	"rhsusf_acc_ACOG3",
 	"rhsusf_acc_compm4",
 	"rhsusf_acc_ELCAN",
+	"tf47_optic_m3maaws",
 	"FHQ_optic_AimM_BLK",
 	"FHQ_optic_HWS_G33",
 	"FHQ_optic_HWS",
@@ -284,6 +295,9 @@ _availableGrenades = [
 	"DemoCharge_Remote_Mag",
 	"SatchelCharge_Remote_Mag",
 	"ClaymoreDirectionalMine_Remote_Mag",
+	"ATMine_Range_Mag",
+	"SLAMDirectionalMine_Wire_Mag",
+	"APERSBoundingMine_Range_Mag",
 	"SmokeShell",
 	"SmokeShellRed",
 	"SmokeShellGreen",
