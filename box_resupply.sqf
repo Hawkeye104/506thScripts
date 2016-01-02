@@ -1,6 +1,27 @@
 
 /*
+<<<<<<< HEAD
 null = [this] execVM "box_resupply.sqf"
+=======
+CHANGELOG
+09OCT15
+- Added tf47_m3maaws_HEAT
+08MAY15
+- Added ACE_fieldDressing
+- Added ACE_epinephrine
+- Added ACE_bloodIV_250
+- Added ACE_bodyBag
+
+07MAY15
+- Removed AGM Medical supplies
+
+06JAN15
+- Initial creation
+
+13JAN15
+- Javelin tube to Javelin missile
+- Added M136 HP x2
+>>>>>>> origin/master
 */
 
 _box = _this select 0;
