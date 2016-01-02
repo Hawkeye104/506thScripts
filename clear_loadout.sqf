@@ -1,11 +1,5 @@
 /*
-CHANGELOG
-
-06JAN14
-- Changed to patchless uniform
-
-09MAR15
-- Changed to 101st uniform
+this addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 5"];
 */
 
 _unit = _this select 1;

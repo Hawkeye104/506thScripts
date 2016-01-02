@@ -1,21 +1,6 @@
-// nul = [this] execVM "box_resupply.sqf"
+
 /*
-CHANGELOG
-08MAY15
-- Added ACE_fieldDressing
-- Added ACE_epinephrine
-- Added ACE_bloodIV_250
-- Added ACE_bodyBag
-
-07MAY15
-- Removed AGM Medical supplies
-
-06JAN15
-- Initial creation
-
-13JAN15
-- Javelin tube to Javelin missile
-- Added M136 HP x2
+null = [this] execVM "box_resupply.sqf"
 */
 
 _box = _this select 0;
@@ -29,6 +14,7 @@ clearBackpackCargoGlobal _box;
 _box addWeaponCargoGlobal ["rhs_weap_M136_hp", 2];
 _box addMagazineCargoGlobal ["rhs_m136_hp_mag", 2];
 _box addMagazineCargoGlobal ["rhs_fgm148_magazine_AT", 2];
+_box addMagazineCargoGlobal ["tf47_m3maaws_HEAT", 3];
 
 // Ammo
 _box addMagazineCargoGlobal ["rhs_mag_30Rnd_556x45_Mk318_Stanag", 100];

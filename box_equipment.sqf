@@ -1,29 +1,5 @@
 /*
-CHANGELOG
-01SEP15
-- Removed "Rangefinder"
-- Removed "meu_MX2A_tan"
-06AUG15
-- Added "ACE_MX2A"
-15JUL15
-- Added "rhsusf_opscore_03_ocp"
-24JUN15
-- Added "rhsusf_acc_harris_bipod"
-07MAy15
-- Replaced "AGM_Vector" with "ACE_Vector"
-- Added lerca_1200_black
-- Added lerca_1200_tan
-- Added meu_MX2A_tan
-
-06JAN15
-- Added Laser designator batteries (10)
-
-05MAR15
-- Added SMGR
-
-06APR15
-- Added if(isServer)
-- Moved backpack radios to VA
+null=[this] execVM "scripts\box_equipment.sqf";
 */
 if (isServer) then {
 	_crate = _this select 0;
@@ -42,5 +18,10 @@ if (isServer) then {
 	_crate addItemCargoGlobal ["Laserdesignator",5];
 	_crate addItemCargoGlobal ["ItemRadio",100];
 	_crate addItemCargoGlobal ["ItemSMGR", 10];
+	_crate addMagazineCargoGlobal["rhsusf_100Rnd_556x45_soft_pouch", 6];
+	_crate addMagazineCargoGlobal["rhsusf_100Rnd_762x51", 3];
+	_crate addMagazineCargoGlobal["rhsusf_100Rnd_762x51_m993", 3];
+	_crate addMagazineCargoGlobal["rhs_fgm148_magazine_AT", 1];
+	_crate addMagazineCargoGlobal["tf47_m3maaws_HEAT", 2];
 	_crate addMagazineCargoGlobal["Laserbatteries", 10];
 };
