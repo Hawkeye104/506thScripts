@@ -12,7 +12,7 @@ if (isServer) then {
 	_crate addItemCargoGlobal ["ACE_Vector",50];
 	_crate addItemCargoGlobal ["ACE_MX2A",50];
 	_crate addItemCargoGlobal ["rhsusf_acc_harris_bipod",1];
-	_crate addItemCargoGlobal ["rhsusf_opscore_03_ocp",1];
+	_crate addItemCargoGlobal ["rhsusf_opscore_mc_cover_pelt",1];
 	_crate addItemCargoGlobal ["lerca_1200_black",50];
 	_crate addItemCargoGlobal ["lerca_1200_tan",50];
 	_crate addItemCargoGlobal ["Laserdesignator",5];

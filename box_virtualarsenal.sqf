@@ -29,7 +29,8 @@ _availableGoggles = [
 	"rhs_googles_clear",
 	"rhs_googles_orange",
 	"rhs_googles_yellow",
-	"rhs_googles_black"
+	"rhs_googles_black",
+	"rhs_ess_black"
 ];
  
 _availableUniforms = [
@@ -120,16 +121,17 @@ _availableAccessories = [
 	"rhsusf_acc_ACOG3",
 	"rhsusf_acc_compm4",
 	"rhsusf_acc_ELCAN",
+	"rhsusf_acc_SF3P556",
+	"rhsusf_acc_LEUPOLDMK4",
 	"tf47_optic_m3maaws",
+	"FHQ_optic_ACOG",
 	"FHQ_optic_AimM_BLK",
 	"FHQ_optic_HWS_G33",
 	"FHQ_optic_HWS",
 	"FHQ_optic_AC11704",
-	"rhsusf_acc_LEUPOLDMK4",
-	"optic_tws",
-	"optic_tws_mg",
 	"FHQ_optic_TWS3050",
-	"rhsusf_acc_SF3P556"
+	"optic_tws",
+	"optic_tws_mg"	
 ];
  
 _availableMagazines = [
@@ -146,6 +148,8 @@ _availableMagazines = [
 	"rhsusf_100Rnd_762x51",
 	"rhsusf_100Rnd_762x51_m993",
 	"RH_15Rnd_9x19_M9",
+	"rhsusf_mag_15Rnd_9x19_FMJ",
+	"rhsusf_mag_15Rnd_9x19_JHP",
 	"rhs_mag_M433_HEDP",
 	"rhs_mag_M441_HE",
 	"rhs_mag_M4009",
@@ -217,6 +221,7 @@ _availableWeapons = [
 	"rhs_weap_fgm148",
 	"tf47_m3maaws",
 	"RH_m9",
+	"rhsusf_weap_m9",
 	"Binocular"
 ];
  
