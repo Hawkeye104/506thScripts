@@ -84,6 +84,7 @@ _availableItems = [
 	"ItemMap",
 	"ToolKit",
 	"MineDetector",
+	"acc_pointer_IR", // Day Visible Laser
 	"ItemcTabHCam", // ctab, helmet cam
 	"ItemAndroid", // ctab, android bft
 	"ItemcTab", // ctab, commander tablet
@@ -135,19 +136,20 @@ _availableAccessories = [
 ];
  
 _availableMagazines = [
+	"ACE_HuntIR_M203",
 	"30Rnd_556x45_Stanag",
 	"30Rnd_556x45_Stanag_Tracer_Red",
+	"RH_15Rnd_9x19_M9",
 	"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-	"ACE_HuntIR_M203",
-	"rhsusf_20Rnd_762x51_m118_special_Mag",
-	"rhsusf_8Rnd_00Buck",
-	"rhsusf_8Rnd_Slug",
 	"rhsusf_5Rnd_00Buck",
 	"rhsusf_5Rnd_Slug",
-	"rhsusf_100Rnd_556x45_soft_pouch",
+	"rhsusf_8Rnd_00Buck",
+	"rhsusf_8Rnd_Slug",
+	"rhsusf_20Rnd_762x51_m118_special_Mag",
 	"rhsusf_100Rnd_762x51",
 	"rhsusf_100Rnd_762x51_m993",
-	"RH_15Rnd_9x19_M9",
+	"rhsusf_100Rnd_556x45_soft_pouch",
+	"rhsusf_200Rnd_556x45_soft_pouch",
 	"rhsusf_mag_15Rnd_9x19_FMJ",
 	"rhsusf_mag_15Rnd_9x19_JHP",
 	"rhs_mag_M433_HEDP",
@@ -164,8 +166,8 @@ _availableMagazines = [
 	"rhs_m136_mag",
 	"rhs_m136_hp_mag",
 	"rhs_m136_hedp_mag",
-	"tf47_m3maaws_HEAT",
-	"rhs_fgm148_magazine_AT"
+	"rhs_fgm148_magazine_AT",
+	"tf47_m3maaws_HEAT"	
 ];
 
 _availableGrenades = [ 

@@ -8,11 +8,11 @@
 	*/
 
  if (!local _unit) exitWith {};
-
-	removeallactions player;
 	
+	player removeAction view;
 	view1 = player addAction ["Grass Off", {
 	setTerrainGrid 50;
+	player removeAction view;
 	player removeAction view1;
 	player removeAction view2;
 	player removeAction view3;
@@ -25,6 +25,7 @@
 	
 	view2 = player addAction ["Low", {
 	setTerrainGrid 25; 
+	player removeAction view;
 	player removeAction view1;
 	player removeAction view2;
 	player removeAction view3;
@@ -37,6 +38,7 @@
 	
 	view3 = player addAction ["Normal", {
 	setTerrainGrid 12.5; 
+	player removeAction view;
 	player removeAction view1;
 	player removeAction view2;
 	player removeAction view3;
@@ -49,6 +51,7 @@
 	
 	view4 = player addAction ["High", {
 	setTerrainGrid 6.25; 
+	player removeAction view;
 	player removeAction view1;
 	player removeAction view2;
 	player removeAction view3;
@@ -61,6 +64,7 @@
 	
 	view5 = player addAction ["Ultra", {
 	setTerrainGrid 3.125; 
+	player removeAction view;
 	player removeAction view1;
 	player removeAction view2;
 	player removeAction view3;
@@ -74,6 +78,13 @@
 	view6 = player addAction ["", {}, [],-98,false,false,"","alive player"];
 	
 	view7 = player addAction ["Disable Settings", {
-	Removeallactions player;
+	player removeAction view;
+	player removeAction view1;
+	player removeAction view2;
+	player removeAction view3;
+	player removeAction view4;
+	player removeAction view5;
+	player removeAction view6;
+	player removeAction view7;
 	}, [],-99,false,false,"","alive player"];
 	
