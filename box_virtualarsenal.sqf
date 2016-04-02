@@ -69,6 +69,41 @@ _availableBackpacks = [
 ];
  
 _availableItems = [
+	"acc_pointer_IR", // Day Visible Laser
+	"ACE_Altimeter",
+	"ACE_bloodIV_250",
+	"ACE_bodyBag",
+	"ACE_CableTie",
+	"ACE_Clacker",
+	"ACE_DefusalKit",
+	"ACE_EarPlugs",
+	"ACE_EntrenchingTool",
+	"ACE_epinephrine",
+	"ACE_fieldDressing",
+	"ACE_Flashlight_MX991",
+	"ACE_HuntIR_monitor",
+	"ACE_Kestrel4500",
+	"ACE_M26_Clacker",
+	"ACE_MapTools",
+	"ACE_Morphine",
+	"ACE_SpraypaintBlack",
+	"ACE_SpraypaintBlue",
+	"ACE_SpraypaintGreen",
+	"ACE_SpraypaintRed",
+	"ACE_TacticalLadder_Item",
+	"ACE_Tripod",
+	"ACE_UAVBattery",
+	"ACE_wirecutter",
+	"B_UavTerminal",
+	"ItemAndroid", // ctab, android bft
+	"ItemCompass",
+	"ItemcTabHCam", // ctab, helmet cam
+	"ItemGPS",
+	"ItemMap",
+	"ItemMicroDAGR", // ctab, microdagr gps
+	"ItemcTab", // ctab, commander tablet
+	"ItemWatch",
+	"MineDetector",
 	"rhsusf_ANPVS_14",
 	"rhsusf_ANPVS_15",
 	"rhsusf_ANPVS_15_ng",
@@ -78,38 +113,8 @@ _availableItems = [
 	"rhsusf_ANPVS_14_full_ng",
 	"rhsusf_ANPVS_15_full_ng",
 	"rhsusf_ANPVS_14_oval_ng",
-	"ItemWatch",
-	"ItemCompass",
-	"ItemGPS",
-	"ItemMap",
-	"ToolKit",
-	"MineDetector",
-	"acc_pointer_IR", // Day Visible Laser
-	"ItemcTabHCam", // ctab, helmet cam
-	"ItemAndroid", // ctab, android bft
-	"ItemcTab", // ctab, commander tablet
-	"ItemMicroDAGR", // ctab, microdagr gps
-	"B_UavTerminal",
-	"ACE_HuntIR_monitor",
-	"ACE_M26_Clacker",
-	"ACE_Clacker",
-	"ACE_DefusalKit",
-	"ACE_wirecutter",
-	"ACE_EarPlugs",
-	"ACE_CableTie",
-	"ACE_MapTools",
-	"ACE_Kestrel4500",
-	"ACE_Altimeter",	
-	"ACE_fieldDressing",
-	"ACE_Morphine",
-	"ACE_epinephrine",
-	"ACE_bloodIV_250",
-	"ACE_UAVBattery",
-	"ACE_TacticalLadder_Item",
-	"ACE_bodyBag",
-	"ACE_Tripod",
-	"ACE_Flashlight_MX991",
-	"TIAD_506th_UAV_Item"
+	"TIAD_506th_UAV_Item",
+	"ToolKit"
 ];
 
 _availableAccessories = [
