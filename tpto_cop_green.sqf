@@ -1,0 +1,1 @@
+player setPos [(getPos cop_green select 0) +1, getPos cop_green select 1, getPos cop_green select 2];

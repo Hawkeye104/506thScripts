@@ -9,6 +9,7 @@ _crate = _this select 0;
 _availableHeadgear = [
 	"rhsusf_ach_helmet_headset_ess_ocp",
 	"rhsusf_ach_helmet_ocp",
+	"rhsusf_ach_helmet_ocp_norotos",
 	"rhsusf_ach_helmet_ESS_ocp",
 	"rhsusf_ach_helmet_headset_ocp",
 	"rhsusf_hgu56p",
@@ -48,6 +49,8 @@ _availableVests = [
 	"rhsusf_iotv_ocp_SAW",
 	"rhsusf_iotv_ocp_Squadleader",
 	"rhsusf_iotv_ocp_Teamleader",
+	"rhsusf_spcs_ocp_rifleman",
+	"rhsusf_spcs_ocp",
 	"V_TacVest_oli"
 ];
  
@@ -119,16 +122,25 @@ _availableItems = [
 
 _availableAccessories = [
 	"rhsusf_acc_anpeq15",
-	"rhsusf_acc_anpeq15_light",
-	"rhsusf_acc_anpeq15",
 	"rhsusf_acc_anpeq15A",
+	"rhsusf_acc_anpeq15_light",
+	"rhsusf_acc_anpeq15side",
+	"rhsusf_acc_anpeq15_top",
+	"rhsusf_acc_anpeq15side_bk",
+	"rhsusf_acc_anpeq15_bk_top",
+	"rhsusf_acc_anpeq15_bk",
+	"rhsusf_acc_anpeq15_bk_light",
 	"rhsusf_acc_ACOG",
 	"rhsusf_acc_ACOG2",
 	"rhsusf_acc_ACOG3",
 	"rhsusf_acc_compm4",
+	"rhsusf_acc_grip1",
+	"rhsusf_acc_grip2",
+	"rhsusf_acc_grip3",
 	"rhsusf_acc_ELCAN",
 	"rhsusf_acc_SF3P556",
 	"rhsusf_acc_LEUPOLDMK4",
+	"rhsusf_acc_premier_anpvs27",
 	"tf47_optic_m3maaws",
 	"FHQ_optic_ACOG",
 	"FHQ_optic_AimM_BLK",
@@ -207,7 +219,11 @@ _availableWeapons = [
 	"rhs_weap_m4a1_grip",
 	"rhs_weap_m4a1_grip2",
 	"rhs_weap_m4a1_m320",
+	"rhs_weap_m4a1_m203",
+	"rhs_weap_m4a1_m203s",
 	"rhs_weap_m4a1_carryhandle",
+	"rhs_weap_m4a1_carryhandle_m203",
+	"rhs_weap_m4a1_carryhandle_m203S",
 	"rhs_weap_m4a1_carryhandle_grip",
 	"rhs_weap_m4a1_carryhandle_grip2",
 	"rhs_weap_m4a1_carryhandle_pmag",
@@ -227,7 +243,6 @@ _availableWeapons = [
 	"rhs_weap_M136_hp",
 	"rhs_weap_fgm148",
 	"tf47_m3maaws",
-	"RH_m9",
 	"rhsusf_weap_m9",
 	"Binocular"
 ];
