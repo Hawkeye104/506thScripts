@@ -140,16 +140,15 @@ _availableAccessories = [
 	"rhsusf_acc_ELCAN",
 	"rhsusf_acc_SF3P556",
 	"rhsusf_acc_LEUPOLDMK4",
+	"rhsusf_acc_harris_bipod",
 	"rhsusf_acc_premier_anpvs27",
 	"tf47_optic_m3maaws",
 	"FHQ_optic_ACOG",
 	"FHQ_optic_AimM_BLK",
-	"FHQ_optic_HWS_G33",
-	"FHQ_optic_HWS",
 	"FHQ_optic_AC11704",
 	"FHQ_optic_TWS3050",
 	"optic_tws",
-	"optic_tws_mg"	
+	"optic_tws_mg"
 ];
  
 _availableMagazines = [
@@ -167,6 +166,7 @@ _availableMagazines = [
 	"rhsusf_100Rnd_762x51_m993",
 	"rhsusf_100Rnd_556x45_soft_pouch",
 	"rhsusf_200Rnd_556x45_soft_pouch",
+	"rhs_200rnd_556x45_M_SAW",
 	"rhsusf_mag_15Rnd_9x19_FMJ",
 	"rhsusf_mag_15Rnd_9x19_JHP",
 	"rhs_mag_M433_HEDP",
@@ -216,16 +216,12 @@ _availableGrenades = [
 
 _availableWeapons = [
 	"rhs_weap_m4a1",
-	"rhs_weap_m4a1_grip",
-	"rhs_weap_m4a1_grip2",
 	"rhs_weap_m4a1_m320",
 	"rhs_weap_m4a1_m203",
 	"rhs_weap_m4a1_m203s",
 	"rhs_weap_m4a1_carryhandle",
 	"rhs_weap_m4a1_carryhandle_m203",
 	"rhs_weap_m4a1_carryhandle_m203S",
-	"rhs_weap_m4a1_carryhandle_grip",
-	"rhs_weap_m4a1_carryhandle_grip2",
 	"rhs_weap_m4a1_carryhandle_pmag",
 	"rhs_weap_M320",
 	"rhs_weap_m14ebrri",
@@ -242,6 +238,7 @@ _availableWeapons = [
 	"rhs_weap_M136_hedp",
 	"rhs_weap_M136_hp",
 	"rhs_weap_fgm148",
+	"rhs_weap_m72a7",
 	"tf47_m3maaws",
 	"rhsusf_weap_m9",
 	"Binocular"
